@@ -9,11 +9,11 @@
           "Port": 10081
         }
       ],
-      "UpstreamPathTemplate": "/api/usercustomers",
+      "UpstreamPathTemplate": "/api/user/get-user-customers",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:44342"
+    "BaseUrl": "https://localhost:10087"
   }
 }
